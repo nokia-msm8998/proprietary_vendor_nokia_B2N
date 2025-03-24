@@ -2532,50 +2532,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgui_vendor",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgui_vendor.so",
-            ],
-            shared_libs: [
-                "libgui_shim_vendor",
-                "android.hardware.graphics.bufferqueue@1.0",
-                "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "android.hidl.token@1.0-utils",
-                "libbase",
-                "libbinder",
-                "libcutils",
-                "libEGL",
-                "libGLESv2",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libnativewindow",
-                "libsync",
-                "libui",
-                "libutils",
-                "libvndksupport",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhal_dbg",
     owner: "nokia",
     strip: {
