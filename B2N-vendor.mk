@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k2l7sa05_b2n_wide_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7sa05_b2n_wide_chromatix.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k3m3sm_b2n_tele_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_b2n_tele_chromatix.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k3p8sp_b2n_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_b2n_chromatix.xml \
+    vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_b2n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_b2n_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n_cn.xml \
@@ -87,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt
 
 PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     libkeymasterdeviceutils \
     libkeymasterprovision \
@@ -330,6 +332,7 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
     B2N2_TAS2557.ftcfg \
+    android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     mm-qcamera-app \
     sensors.qti
