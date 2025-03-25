@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_b2n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n.xml \
-    vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths_b2n_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n_cn.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_b2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_b2.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
