@@ -93,9 +93,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
-    libmmcamera_dbg \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
     libseemore \
     libsensor1 \
     libsensor_reg \
@@ -222,12 +219,15 @@ PRODUCT_PACKAGES += \
     libmmcamera_arcsoftbokeh_lib \
     libmmcamera_bokeh \
     libmmcamera_csidtg \
+    libmmcamera_dbg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
     libmmcamera_eebinparse \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmmcamera_hdr_gb_lib \
     libmmcamera_hvx_add_constant \
     libmmcamera_hvx_grid_sum \
