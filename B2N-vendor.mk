@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_b2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_b2.conf \
     vendor/nokia/B2N/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_B2N_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_B2N_cal.bin \
+    vendor/nokia/B2N/proprietary/vendor/etc/wifi/bdf/bdwlan_def.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_def.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin \
@@ -332,6 +336,7 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
     B2N2_TAS2557.ftcfg \
+    cnss-daemon \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     mm-qcamera-app \
