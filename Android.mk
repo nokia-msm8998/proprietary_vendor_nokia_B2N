@@ -22,7 +22,6 @@ $(call add-radio-file-sha1-checked,radio/modem.img,73b2e6b6225eda947c0ce349465f1
 $(call add-radio-file-sha1-checked,radio/nvdef.img,87685bb4c02e19cdc226b7ea7382c52aabf5862d)
 $(call add-radio-file-sha1-checked,radio/pmic.img,23803b25ca4a6edf0b2ba4669a45320ae6682b12)
 $(call add-radio-file-sha1-checked,radio/rpm.img,1e5fe23d3d59abcaf6cd1d62382eb04a934396f8)
-$(call add-radio-file-sha1-checked,radio/splash.img,533e16f1bc33fbc81c95c7c3cf7022c12d7dd377)
 $(call add-radio-file-sha1-checked,radio/systeminfo.img,566d6aa26509893751a98b37f02ad4887c8440cb)
 $(call add-radio-file-sha1-checked,radio/tz.img,857d490e55ce57ae9297bf1397422927bb9298c2)
 $(call add-radio-file-sha1-checked,radio/xbl.img,b6701a994bc8958fe38b0585f3e80ebeb32a7dad)

@@ -19,7 +19,6 @@ AB_OTA_PARTITIONS += \
     nvdef \
     pmic \
     rpm \
-    splash \
     systeminfo \
     tz \
     xbl
