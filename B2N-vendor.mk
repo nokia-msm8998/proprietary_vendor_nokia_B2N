@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
-    libseemore \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
@@ -122,7 +121,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_smart_denoise \
     libaudcal \
     libaudioalsa \
-    libc++_shared \
     libchromatix_s5k2l7sa05_b2n_wide_4k_preview_3a \
     libchromatix_s5k2l7sa05_b2n_wide_4k_video_3a \
     libchromatix_s5k2l7sa05_b2n_wide_common \
@@ -295,7 +293,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_s5k3m3sm_b2n_tele \
     libmmcamera_s5k3p8sp_b2n \
     libmmcamera_s5k3p8sp_b2n_gt24c64_eeprom \
-    libmmcamera_stillmore_lib \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
     libmmcamera_tintless_algo \
