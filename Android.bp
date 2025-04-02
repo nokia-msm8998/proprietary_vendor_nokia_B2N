@@ -740,6 +740,63 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libadsp_hvx_callback_skel",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libadsp_hvx_callback_skel.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libmmcamera_dbg",
+                "libcdsprpc",
+                "libadsp_hvx_stub",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libadsp_hvx_stub",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libadsp_hvx_stub.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libmmcamera_dbg",
+                "libcdsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaoa",
     owner: "nokia",
     strip: {

@@ -112,6 +112,8 @@ PRODUCT_PACKAGES += \
     libactuator_pseudo \
     libadiertac \
     libadm \
+    libadsp_hvx_callback_skel \
+    libadsp_hvx_stub \
     libaoa \
     libarcsoft_beautyshot \
     libarcsoft_beautyshot_image_algorithm \
