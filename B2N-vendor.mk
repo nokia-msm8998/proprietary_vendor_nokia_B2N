@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/TP_Firmware_FT8716_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_B2N.bin \
     vendor/nokia/B2N/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
     vendor/nokia/B2N/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
     vendor/nokia/B2N/proprietary/vendor/firmware/cmnlib.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b00 \
@@ -90,7 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b05 \
     vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b06 \
     vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b07 \
-    vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt
+    vendor/nokia/B2N/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt \
+    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_h_glass_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_h_glass_ts_fw.bin \
+    vendor/nokia/B2N/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin
 
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
