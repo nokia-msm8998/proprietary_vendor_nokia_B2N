@@ -96,11 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl-qti \
-    android.hardware.keymaster@3.0-impl-qti \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
@@ -316,9 +311,14 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
+    android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.keymaster@3.0-impl-qti \
     fingerprint.gxfp3208_b2n \
     libgf_ca_gxfp3208_b2n \
     libgf_hal_gxfp3208_b2n \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     libvendor.goodix.hardware.fingerprintextension@1.0 \
