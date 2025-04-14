@@ -1,6 +1,5 @@
 radio/hyp.img filter=lfs diff=lfs merge=lfs -text
 radio/mdtp.img filter=lfs diff=lfs merge=lfs -text
-radio/splash.img filter=lfs diff=lfs merge=lfs -text
 radio/systeminfo.img filter=lfs diff=lfs merge=lfs -text
 radio/abl.img filter=lfs diff=lfs merge=lfs -text
 radio/hidden.img filter=lfs diff=lfs merge=lfs -text
