@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k2l7sa05_b2n_wide_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7sa05_b2n_wide_chromatix.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k3m3sm_b2n_tele_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3sm_b2n_tele_chromatix.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/camera/s5k3p8sp_b2n_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_b2n_chromatix.xml \
-    vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/nokia/B2N/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/nokia/B2N/proprietary/vendor/etc/sensors/sensor_def_qcomdev_b2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_b2.conf \
@@ -310,14 +309,10 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
-    android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     fingerprint.gxfp3208_b2n \
     libgf_ca_gxfp3208_b2n \
     libgf_hal_gxfp3208_b2n \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     libvendor.goodix.hardware.fingerprintextension@1.0 \
@@ -338,7 +333,6 @@ PRODUCT_PACKAGES += \
     libscveT2T_skel \
     B2N2_TAS2557.ftcfg \
     cnss-daemon \
-    android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     mm-qcamera-app \
     sensors.qti
