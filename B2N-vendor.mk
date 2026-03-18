@@ -316,21 +316,21 @@ PRODUCT_PACKAGES += \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     libvendor.goodix.hardware.fingerprintextension@1.0 \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libFastRPC_AUE_Forward_skel \
-    libFastRPC_UTF_Forward_800h_skel \
-    libFastRPC_UTF_Forward_Qtc2_skel \
-    libadsp_fd_skel \
-    libadsp_hvx_add_constant \
-    libadsp_hvx_skel \
-    libapps_mem_heap \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvadsp_skel \
-    libscveBlobDescriptor_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so \
+    vendor_lib_rfsa_adsp_libFastRPC_AUE_Forward_skel_so \
+    vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_800h_skel_so \
+    vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_Qtc2_skel_so \
+    vendor_lib_rfsa_adsp_libadsp_fd_skel_so \
+    vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so \
+    vendor_lib_rfsa_adsp_libadsp_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_skel_so \
+    vendor_lib_rfsa_adsp_libscveBlobDescriptor_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
     B2N2_TAS2557.ftcfg \
     cnss-daemon \
     android.hardware.keymaster@3.0-service-qti \

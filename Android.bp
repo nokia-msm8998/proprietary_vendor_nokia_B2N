@@ -5653,7 +5653,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_Classic",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so",
     filename: "capi_v2_aptX_Classic.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so",
@@ -5662,7 +5662,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_HD",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so",
     filename: "capi_v2_aptX_HD.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so",
@@ -5671,7 +5671,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libFastRPC_AUE_Forward_skel",
+    name: "vendor_lib_rfsa_adsp_libFastRPC_AUE_Forward_skel_so",
     filename: "libFastRPC_AUE_Forward_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so",
@@ -5680,7 +5680,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libFastRPC_UTF_Forward_800h_skel",
+    name: "vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_800h_skel_so",
     filename: "libFastRPC_UTF_Forward_800h_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so",
@@ -5689,7 +5689,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libFastRPC_UTF_Forward_Qtc2_skel",
+    name: "vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_Qtc2_skel_so",
     filename: "libFastRPC_UTF_Forward_Qtc2_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so",
@@ -5698,7 +5698,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_fd_skel",
+    name: "vendor_lib_rfsa_adsp_libadsp_fd_skel_so",
     filename: "libadsp_fd_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so",
@@ -5707,7 +5707,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_hvx_add_constant",
+    name: "vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so",
     filename: "libadsp_hvx_add_constant.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so",
@@ -5716,7 +5716,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_hvx_skel",
+    name: "vendor_lib_rfsa_adsp_libadsp_hvx_skel_so",
     filename: "libadsp_hvx_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so",
@@ -5725,7 +5725,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libapps_mem_heap",
+    name: "vendor_lib_rfsa_adsp_libapps_mem_heap_so",
     filename: "libapps_mem_heap.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
@@ -5734,7 +5734,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdspCV_skel",
+    name: "vendor_lib_rfsa_adsp_libdspCV_skel_so",
     filename: "libdspCV_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
@@ -5743,7 +5743,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_so",
     filename: "libfastcvadsp.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
@@ -5752,7 +5752,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp_skel",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_skel_so",
     filename: "libfastcvadsp_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so",
@@ -5761,7 +5761,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveBlobDescriptor_skel",
+    name: "vendor_lib_rfsa_adsp_libscveBlobDescriptor_skel_so",
     filename: "libscveBlobDescriptor_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so",
@@ -5770,7 +5770,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveObjectSegmentation_skel",
+    name: "vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so",
     filename: "libscveObjectSegmentation_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
@@ -5779,7 +5779,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveT2T_skel",
+    name: "vendor_lib_rfsa_adsp_libscveT2T_skel_so",
     filename: "libscveT2T_skel.so",
     owner: "nokia",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
