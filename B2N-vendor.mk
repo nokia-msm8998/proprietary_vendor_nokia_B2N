@@ -95,10 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/B2N/proprietary/vendor/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl
 
 PRODUCT_PACKAGES += \
+    sensors.sdm660 \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
-    sensors.ssc \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
