@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
-    sensors.ssc \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -298,11 +297,13 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     android.hardware.keymaster@3.0-impl-qti \
     fingerprint.gxfp3208_b2n \
+    sensors.sdm660 \
     libgf_ca_gxfp3208_b2n \
     libgf_hal_gxfp3208_b2n \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     libvendor.goodix.hardware.fingerprintextension@1.0 \
+    sensors.ssc \
     vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so \
     vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so \
     vendor_lib_rfsa_adsp_libFastRPC_AUE_Forward_skel_so \
