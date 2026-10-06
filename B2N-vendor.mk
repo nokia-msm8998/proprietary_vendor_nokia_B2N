@@ -99,7 +99,6 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     sensor_calibrate \
     sensors.ssc \
-    camera.sdm660 \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -111,12 +110,6 @@ PRODUCT_PACKAGES += \
     libadsp_hvx_callback_skel \
     libadsp_hvx_stub \
     libaoa \
-    libarcsoft_beautyshot \
-    libarcsoft_beautyshot_image_algorithm \
-    libarcsoft_beautyshot_video_algorithm \
-    libarcsoft_night_shot \
-    libarcsoft_picselfie_algorithm \
-    libarcsoft_smart_denoise \
     libaudcal \
     libaudioalsa \
     libchromatix_s5k2l7sa05_b2n_wide_4k_preview_3a \
@@ -195,7 +188,6 @@ PRODUCT_PACKAGES += \
     libfih_camera_effect \
     libflash_dummy_flash \
     libflash_pmic \
-    libhal_dbg \
     libimage_matting \
     libjpegdhw \
     libjpegdmahw \
@@ -217,7 +209,6 @@ PRODUCT_PACKAGES += \
     libmmcamera2_stats_algorithm \
     libmmcamera2_stats_lib \
     libmmcamera2_stats_modules \
-    libmmcamera_arcsoftbokeh_lib \
     libmmcamera_bokeh \
     libmmcamera_csidtg \
     libmmcamera_dbg \
@@ -234,7 +225,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_hvx_grid_sum \
     libmmcamera_imglib \
     libmmcamera_imglib_faceproc_adspstub \
-    libmmcamera_interface \
     libmmcamera_isp_abf48 \
     libmmcamera_isp_aec_bg_stats47 \
     libmmcamera_isp_bf_stats47 \
@@ -298,13 +288,10 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
-    libmmjpeg_interface \
-    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmpbase \
     libpn553_fw \
-    libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
